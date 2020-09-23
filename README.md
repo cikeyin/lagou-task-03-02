@@ -9,7 +9,7 @@
 
 (3) vm.$mount()方法通过compileToFunctions()用来将模板转换成render函数，并保存到options.render中。
 
-(4) 调用runtime文件中的vm.$mount()方法，运行时版本会在mountComponent()方法中重新获取el。mountComponent()方法中会进行一下操作。
+(4) 调用runtime文件中的vm.$mount()方法，运行时版本会在mountComponent()方法中重新获取el。mountComponent()方法中会进以下操作。
 - 触发beforeMount；
 - 定义updateComponent；
 - 创建Watcher实例；
